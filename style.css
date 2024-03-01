@@ -1,0 +1,130 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #343a40;
+  width: 100%;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #ffffff;
+}
+
+.nav-link:hover {
+  color: #ffffff;
+}
+
+.card-img-top {
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+section {
+  padding: 60px 0;
+  font-size: large;
+}
+#animation {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  animation: typing 5s steps(70, end) forwards infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+#animation::after {
+  content: "";
+  position: absolute;
+  width: 0.08em;
+  height: 1em;
+  background-color: orange;
+  animation: blink 0.7s infinite;
+  margin-left: 2px;
+}
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+#about {
+  margin: 105px 0;
+}
+#about,
+#education,
+#skills,
+#projects,
+#resume,
+#contact {
+  transition: transform 0.2s ease;
+}
+#about:hover,
+#education:hover,
+#skills:hover,
+#projects:hover,
+#resume:hover,
+#contact:hover {
+  transform: scale(1.01);
+}
+
+.Profile {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin: auto;
+  transition: box-shadow 0.3s ease;
+  display: block;
+}
+
+.Profile:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.433);
+}
+
+.project {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.4s ease-in-out;
+}
+
+.project-title {
+  color: #343a40;
+  margin-bottom: 10px;
+}
+
+.project-description {
+  color: #6c757d;
+}
+
+.project:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.433);
+}
+
+.btn-primary {
+  transition: transform 0.2s ease;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  background-color: #343a40;
+  color: #ffffff;
+  padding: 20px 0;
+}

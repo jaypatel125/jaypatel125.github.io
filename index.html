@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">JP</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#about"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#education">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#resume">Resume</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <section id="about" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <img class="Profile" src="images/Profile.JPEG" />
+          </div>
+          <div class="col-md-8">
+            <h3 id="animation">Hello, I'm Jay Patel</h3>
+            <p>
+              A software developer passionate about transforming ideas into
+              impactful digital solutions. Currently immersed in the dynamic
+              field of software development, I thrive on the challenges of
+              crafting elegant code and creating user-friendly applications.
+            </p>
+            <p>
+              As I look to the future, my goal is to leverage my expertise to
+              work on impactful projects that make a difference in people's
+              lives. Whether it's developing software solutions for businesses
+              or creating innovative apps for social good, I am excited about
+              the possibilities that lie ahead.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education" class="py-5 bg-light">
+      <div class="container">
+        <h3>Education</h3>
+        <div class="row">
+          <div class="col-md-10">
+            <p>Computer Systems Technology - Software Development</p>
+
+            <ul>
+              <li>
+                Currently enrolled in 4th semester of 3 year advanced diploma
+                program
+              </li>
+              <li>Expected completion: December 2025</li>
+              <li>
+                Relevant coursework: Object-Oriented Programming, Web
+                Development, Database Management, Data Structures and
+                Algorithms.
+                <a
+                  href="https://www.mohawkcollege.ca/programs/technology/computer-systems-technology-software-development-559"
+                  >learn more</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-2 text-md-end">
+            <p>Mohawk College</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="py-5">
+      <div class="container">
+        <h3>Skills</h3>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="skill">
+              <p>
+                <i class="fas fa-code"></i>
+                Programming Languages:
+              </p>
+              <ul>
+                <li><i class="fab fa-java"></i> Java</li>
+                <li><i class="fab fa-python"></i> Python</li>
+                <li><i class="fab fa-php"></i> PHP</li>
+              </ul>
+            </div>
+            <div class="skill">
+              <p><i class="fas fa-laptop-code"></i> Technologies:</p>
+              <ul>
+                <li><i class="fab fa-html5"></i> HTML</li>
+                <li><i class="fab fa-css3-alt"></i> CSS</li>
+                <li><i class="fab fa-js-square"></i> JavaScript</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="skill">
+              <p><i class="fas fa-cogs"></i> Frameworks:</p>
+              <ul>
+                <li><i class="fab fa-bootstrap"></i> Bootstrap</li>
+                <li><i class="fab fa-react"></i> React</li>
+                <li><i class="fab fa-wordpress"></i> WordPress</li>
+              </ul>
+            </div>
+            <div class="skill">
+              <p><i class="fas fa-database"></i> Database Management:</p>
+              <ul>
+                <li><i class="fas fa-database"></i> MySQL</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="py-5 bg-light">
+      <div class="container">
+        <!-- made up some "pretend" projects -->
+        <h3>Projects</h3>
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="project">
+              <h5 class="project-title">E-commerce Website</h5>
+              <img
+                src="https://i.pinimg.com/736x/af/02/a8/af02a8c424a120c8b58c1c08d04decc0.jpg"
+                class="card-img-top"
+                alt="E-commerce Website"
+              />
+              <p class="project-description">
+                Designed and developed a fully functional e-commerce website
+                using PHP and MySQL, including user authentication, product
+                catalog, and cart functionality.
+              </p>
+              <a href="https://example.com" class="btn btn-primary"
+                >View Demo</a
+              >
+            </div>
+            <div class="project">
+              <h5 class="project-title">Online Learning Platform</h5>
+              <img
+                src="https://i.pinimg.com/736x/d5/23/74/d52374d332bf96efeb4a159d600127a1.jpg"
+                class="card-img-top"
+                alt="Online Learning Platform"
+              />
+              <p class="project-description">
+                Developed an online learning platform using Django, offering
+                courses, quizzes, and interactive learning materials for
+                students.
+              </p>
+              <a href="https://example.com" class="btn btn-primary"
+                >View Demo</a
+              >
+            </div>
+            <div class="project">
+              <h5 class="project-title">Weather App</h5>
+              <img
+                src="https://i.pinimg.com/originals/44/39/a2/4439a2fc6291965d96ce4fd6fe857a92.png"
+                class="card-img-top"
+                alt="Weather App"
+              />
+              <p class="project-description">
+                Built a weather application using React JS and the
+                OpenWeatherMap API to provide real-time weather information
+                based on user location input.
+              </p>
+              <a href="https://example.com" class="btn btn-primary"
+                >View Demo</a
+              >
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="project">
+              <h5 class="project-title">Blog Website</h5>
+              <img
+                src="https://i.pinimg.com/736x/ac/44/0b/ac440b4e884a04a98933eb34d44786a5.jpg"
+                class="card-img-top"
+                alt="Blog Website"
+              />
+              <p class="project-description">
+                Created a blog website using WordPress, customizing themes and
+                plugins to meet specific design and functionality requirements.
+              </p>
+              <a href="https://example.com" class="btn btn-primary"
+                >View Demo</a
+              >
+            </div>
+            <div class="project">
+              <h5 class="project-title">Endless Ocean Escape</h5>
+              <img
+                src="https://store-images.s-microsoft.com/image/apps.30557.13510798886668541.449f4aa0-4a85-4d77-99c5-9e9da48fe6d9.9dbf8bb3-809f-4eea-b77d-38e70673f8b5?w=672&h=378&q=80&mode=letterbox&background=%23FFE4E4E4&format=jpg"
+                class="card-img-top"
+                alt="Endless Ocean Escape"
+              />
+              <p class="project-description">
+                Developed 'Endless Ocean Escape' a dynamic 2D game using Unity
+                Engine. Demonstrates proficiency in game development with Unity.
+              </p>
+              <a href="https://example.com" class="btn btn-primary"
+                >View Demo</a
+              >
+            </div>
+
+            <div class="project">
+              <h5 class="project-title">HTML Tag Balance Checker App</h5>
+              <img
+                src="images/project.JPEG"
+                class="card-img-top"
+                alt="HTML Tag Balance Checker App"
+              />
+              <p class="project-description">
+                Created an HTML Tag Balance Checker application using the .NET
+                framework, featuring a user-friendly GUI for efficient
+                validation of HTML tag balance.
+              </p>
+              <a href="https://example.com" class="btn btn-primary"
+                >View Demo</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="py-5">
+      <div class="container">
+        <h3>Resume</h3>
+        <p>
+          You can download my resume
+          <a href="resume/resume.pdf" download>here</a>.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact" class="py-5 bg-light">
+      <div class="container">
+        <h3>Contact</h3>
+        <p>
+          You can reach me at
+          <a href="mailto:jay-kishorbhai.patel@mohawkcollege.ca"
+            >jay-kishorbhai.patel@mohawkcollege.ca</a
+          >
+        </p>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Your Name:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="name"
+              name="name"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Your Email:</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              name="email"
+              required
+            />
+          </div>
+          <div class="mb-3">
+            <label for="message" class="form-label">Message:</label>
+            <textarea
+              class="form-control"
+              id="message"
+              name="message"
+              rows="5"
+              required
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-white py-4">
+      <div class="container text-center">
+        &copy; 2024 Jay Patel. All rights reserved.
+      </div>
+    </footer>
+    <script>
+      if (window.location.hash) {
+        window.location.hash = "";
+      }
+    </script>
+  </body>
+</html>
